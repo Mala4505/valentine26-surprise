@@ -34,6 +34,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <title>Valentine's Surprise</title>
+        <link rel="icon" href="/paper-plane.png" />
+      </head>
       <body
         className={`${lora.variable} ${dancingScript.variable} font-serif antialiased`}
       >
